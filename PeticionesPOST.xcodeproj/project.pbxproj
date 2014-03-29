@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B215C10A18E5A835002304F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215C10918E5A835002304F6 /* Foundation.framework */; };
+		B215C10C18E5A835002304F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215C10B18E5A835002304F6 /* CoreGraphics.framework */; };
+		B215C10E18E5A835002304F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215C10D18E5A835002304F6 /* UIKit.framework */; };
+		B215C11418E5A835002304F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B215C11218E5A835002304F6 /* InfoPlist.strings */; };
+		B215C11618E5A835002304F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B215C11518E5A835002304F6 /* main.m */; };
+		B215C11A18E5A835002304F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B215C11918E5A835002304F6 /* AppDelegate.m */; };
+		B215C11C18E5A835002304F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B215C11B18E5A835002304F6 /* Images.xcassets */; };
+		B215C12318E5A835002304F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215C12218E5A835002304F6 /* XCTest.framework */; };
+		B215C12418E5A835002304F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215C10918E5A835002304F6 /* Foundation.framework */; };
+		B215C12518E5A835002304F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215C10D18E5A835002304F6 /* UIKit.framework */; };
+		B215C12D18E5A835002304F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B215C12B18E5A835002304F6 /* InfoPlist.strings */; };
+		B215C12F18E5A835002304F6 /* PeticionesPOSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B215C12E18E5A835002304F6 /* PeticionesPOSTTests.m */; };
+		B215C13A18E5A848002304F6 /* peticionesPOSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B215C13918E5A848002304F6 /* peticionesPOSTViewController.m */; };
+		B215C13C18E5A855002304F6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B215C13B18E5A855002304F6 /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B215C12618E5A835002304F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B215C0FE18E5A835002304F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B215C10518E5A835002304F6;
+			remoteInfo = PeticionesPOST;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B215C10618E5A835002304F6 /* PeticionesPOST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeticionesPOST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B215C10918E5A835002304F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B215C10B18E5A835002304F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B215C10D18E5A835002304F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B215C11118E5A835002304F6 /* PeticionesPOST-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeticionesPOST-Info.plist"; sourceTree = "<group>"; };
+		B215C11318E5A835002304F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B215C11518E5A835002304F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B215C11718E5A835002304F6 /* PeticionesPOST-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeticionesPOST-Prefix.pch"; sourceTree = "<group>"; };
+		B215C11818E5A835002304F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B215C11918E5A835002304F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B215C11B18E5A835002304F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B215C12118E5A835002304F6 /* PeticionesPOSTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeticionesPOSTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B215C12218E5A835002304F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B215C12A18E5A835002304F6 /* PeticionesPOSTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeticionesPOSTTests-Info.plist"; sourceTree = "<group>"; };
+		B215C12C18E5A835002304F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B215C12E18E5A835002304F6 /* PeticionesPOSTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeticionesPOSTTests.m; sourceTree = "<group>"; };
+		B215C13818E5A848002304F6 /* peticionesPOSTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peticionesPOSTViewController.h; sourceTree = "<group>"; };
+		B215C13918E5A848002304F6 /* peticionesPOSTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = peticionesPOSTViewController.m; sourceTree = "<group>"; };
+		B215C13B18E5A855002304F6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B215C10318E5A835002304F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215C10C18E5A835002304F6 /* CoreGraphics.framework in Frameworks */,
+				B215C10E18E5A835002304F6 /* UIKit.framework in Frameworks */,
+				B215C10A18E5A835002304F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B215C11E18E5A835002304F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215C12318E5A835002304F6 /* XCTest.framework in Frameworks */,
+				B215C12518E5A835002304F6 /* UIKit.framework in Frameworks */,
+				B215C12418E5A835002304F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B215C0FD18E5A835002304F6 = {
+			isa = PBXGroup;
+			children = (
+				B215C10F18E5A835002304F6 /* PeticionesPOST */,
+				B215C12818E5A835002304F6 /* PeticionesPOSTTests */,
+				B215C10818E5A835002304F6 /* Frameworks */,
+				B215C10718E5A835002304F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B215C10718E5A835002304F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B215C10618E5A835002304F6 /* PeticionesPOST.app */,
+				B215C12118E5A835002304F6 /* PeticionesPOSTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B215C10818E5A835002304F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B215C10918E5A835002304F6 /* Foundation.framework */,
+				B215C10B18E5A835002304F6 /* CoreGraphics.framework */,
+				B215C10D18E5A835002304F6 /* UIKit.framework */,
+				B215C12218E5A835002304F6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B215C10F18E5A835002304F6 /* PeticionesPOST */ = {
+			isa = PBXGroup;
+			children = (
+				B215C11818E5A835002304F6 /* AppDelegate.h */,
+				B215C11918E5A835002304F6 /* AppDelegate.m */,
+				B215C11B18E5A835002304F6 /* Images.xcassets */,
+				B215C11018E5A835002304F6 /* Supporting Files */,
+				B215C13818E5A848002304F6 /* peticionesPOSTViewController.h */,
+				B215C13918E5A848002304F6 /* peticionesPOSTViewController.m */,
+				B215C13B18E5A855002304F6 /* Storyboard.storyboard */,
+			);
+			path = PeticionesPOST;
+			sourceTree = "<group>";
+		};
+		B215C11018E5A835002304F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B215C11118E5A835002304F6 /* PeticionesPOST-Info.plist */,
+				B215C11218E5A835002304F6 /* InfoPlist.strings */,
+				B215C11518E5A835002304F6 /* main.m */,
+				B215C11718E5A835002304F6 /* PeticionesPOST-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B215C12818E5A835002304F6 /* PeticionesPOSTTests */ = {
+			isa = PBXGroup;
+			children = (
+				B215C12E18E5A835002304F6 /* PeticionesPOSTTests.m */,
+				B215C12918E5A835002304F6 /* Supporting Files */,
+			);
+			path = PeticionesPOSTTests;
+			sourceTree = "<group>";
+		};
+		B215C12918E5A835002304F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B215C12A18E5A835002304F6 /* PeticionesPOSTTests-Info.plist */,
+				B215C12B18E5A835002304F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B215C10518E5A835002304F6 /* PeticionesPOST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B215C13218E5A835002304F6 /* Build configuration list for PBXNativeTarget "PeticionesPOST" */;
+			buildPhases = (
+				B215C10218E5A835002304F6 /* Sources */,
+				B215C10318E5A835002304F6 /* Frameworks */,
+				B215C10418E5A835002304F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeticionesPOST;
+			productName = PeticionesPOST;
+			productReference = B215C10618E5A835002304F6 /* PeticionesPOST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B215C12018E5A835002304F6 /* PeticionesPOSTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B215C13518E5A835002304F6 /* Build configuration list for PBXNativeTarget "PeticionesPOSTTests" */;
+			buildPhases = (
+				B215C11D18E5A835002304F6 /* Sources */,
+				B215C11E18E5A835002304F6 /* Frameworks */,
+				B215C11F18E5A835002304F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B215C12718E5A835002304F6 /* PBXTargetDependency */,
+			);
+			name = PeticionesPOSTTests;
+			productName = PeticionesPOSTTests;
+			productReference = B215C12118E5A835002304F6 /* PeticionesPOSTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B215C0FE18E5A835002304F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AppAndWeb;
+				TargetAttributes = {
+					B215C12018E5A835002304F6 = {
+						TestTargetID = B215C10518E5A835002304F6;
+					};
+				};
+			};
+			buildConfigurationList = B215C10118E5A835002304F6 /* Build configuration list for PBXProject "PeticionesPOST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B215C0FD18E5A835002304F6;
+			productRefGroup = B215C10718E5A835002304F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B215C10518E5A835002304F6 /* PeticionesPOST */,
+				B215C12018E5A835002304F6 /* PeticionesPOSTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B215C10418E5A835002304F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215C11418E5A835002304F6 /* InfoPlist.strings in Resources */,
+				B215C11C18E5A835002304F6 /* Images.xcassets in Resources */,
+				B215C13C18E5A855002304F6 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B215C11F18E5A835002304F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215C12D18E5A835002304F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B215C10218E5A835002304F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215C11A18E5A835002304F6 /* AppDelegate.m in Sources */,
+				B215C13A18E5A848002304F6 /* peticionesPOSTViewController.m in Sources */,
+				B215C11618E5A835002304F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B215C11D18E5A835002304F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215C12F18E5A835002304F6 /* PeticionesPOSTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B215C12718E5A835002304F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B215C10518E5A835002304F6 /* PeticionesPOST */;
+			targetProxy = B215C12618E5A835002304F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B215C11218E5A835002304F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B215C11318E5A835002304F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B215C12B18E5A835002304F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B215C12C18E5A835002304F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B215C13018E5A835002304F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B215C13118E5A835002304F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B215C13318E5A835002304F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeticionesPOST/PeticionesPOST-Prefix.pch";
+				INFOPLIST_FILE = "PeticionesPOST/PeticionesPOST-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B215C13418E5A835002304F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeticionesPOST/PeticionesPOST-Prefix.pch";
+				INFOPLIST_FILE = "PeticionesPOST/PeticionesPOST-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B215C13618E5A835002304F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeticionesPOST.app/PeticionesPOST";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeticionesPOST/PeticionesPOST-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PeticionesPOSTTests/PeticionesPOSTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B215C13718E5A835002304F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeticionesPOST.app/PeticionesPOST";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeticionesPOST/PeticionesPOST-Prefix.pch";
+				INFOPLIST_FILE = "PeticionesPOSTTests/PeticionesPOSTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B215C10118E5A835002304F6 /* Build configuration list for PBXProject "PeticionesPOST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B215C13018E5A835002304F6 /* Debug */,
+				B215C13118E5A835002304F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B215C13218E5A835002304F6 /* Build configuration list for PBXNativeTarget "PeticionesPOST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B215C13318E5A835002304F6 /* Debug */,
+				B215C13418E5A835002304F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B215C13518E5A835002304F6 /* Build configuration list for PBXNativeTarget "PeticionesPOSTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B215C13618E5A835002304F6 /* Debug */,
+				B215C13718E5A835002304F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B215C0FE18E5A835002304F6 /* Project object */;
+}
